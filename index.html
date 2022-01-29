@@ -12,6 +12,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
+    <!-- swipper css  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <!-- custom css  file link -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -36,12 +42,57 @@
 
     <!-- home section starts  -->
     <section class="home" id="home">
-      <div class="home-slider"></div>
-    </section>
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="slide swiper-slide"
+            style="background: url(assets/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Outstanding Food</span>
+              <h3>Delicious Cooking</h3>
+              <a href="#" class="btn">Get Started</a>
+            </div>
+          </div>
 
+          <div
+            class="slide swiper-slide"
+            style="background: url(assets/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Outstanding Food</span>
+              <h3>Morning Moment</h3>
+              <a href="#" class="btn">Get Started</a>
+            </div>
+          </div>
+
+          <div
+            class="slide swiper-slide"
+            style="background: url(assets/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>Outstanding Food</span>
+              <h3>Authentic Kitchen</h3>
+              <a href="#" class="btn">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
     <!-- home section ends  -->
 
+    <!-- about section starts  -->
+    <section class="about" id="about">
+      <div class="image">
+        <img src="assets//about-img.png" alt="about us" />
+      </div>
+    </section>
+    <!-- about section ends  -->
+
     <!-- custom js link -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
