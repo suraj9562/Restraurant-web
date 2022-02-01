@@ -62,3 +62,15 @@ previewContainer.querySelector("#close-preview").onclick = () => {
 };
 
 lightGallery(document.querySelector(".gallery .gallery-container"));
+
+var swiper = new Swiper(".menu-slider", {
+  grabCursor: true,
+  loop: true,
+  autoHeight: true,
+  spaceBetween: 20,
+  centeredSlides: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
