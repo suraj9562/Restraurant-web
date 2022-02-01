@@ -60,3 +60,5 @@ previewContainer.querySelector("#close-preview").onclick = () => {
     close.classList.remove("active");
   });
 };
+
+lightGallery(document.querySelector(".gallery .gallery-container"));
