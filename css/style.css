@@ -422,6 +422,56 @@ section {
   transform: scale(0.9);
 }
 
+.heading span {
+  color: var(--white);
+}
+
+.order {
+  background: var(--peru);
+}
+
+.order form {
+  background: var(--white);
+  padding: 2rem;
+}
+
+.order form .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.order form .box-container .box {
+  flex: 1 1 41rem;
+}
+
+.order form .box-container .box input,
+.order form .box-container .box textarea {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 1.4rem 1.7rem;
+  font-size: 1.7rem;
+  color: var(--light-black);
+  border: var(--border);
+  text-transform: none;
+}
+
+.order form .box-container .box textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.order form .box-container .box .map {
+  height: 20rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.order form .box-container .box span {
+  color: var(--light-black);
+  font-size: 2rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
